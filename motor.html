@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motor Rehab Games</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Motor Rehab Games</h1>
+    <p>Drag the yellow blocks into the drop zones:</p>
+    <div id="gameArea">
+        <div id="obj1" class="draggable" draggable="true" ondragstart="drag(event)"></div>
+        <div id="obj2" class="draggable" draggable="true" ondragstart="drag(event)"></div>
+        <div id="drop1" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="drop2" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <button onclick="location.href='index.html'">Back to Home</button>
+</body>
+</html>

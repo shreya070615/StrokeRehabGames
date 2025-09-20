@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+h1 { color: #333; }
+button {
+    margin: 15px;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+button:hover { background-color: #45a049; }
+#gameArea {
+    margin-top: 30px;
+}
+.draggable {
+    width: 60px; height: 60px;
+    background-color: #ffcc00;
+    display: inline-block;
+    margin: 10px;
+    cursor: grab;
+}
+.dropzone {
+    width: 70px; height: 70px;
+    border: 2px dashed #333;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
